@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <title>My Blog</title>
+</head>
+<Body>
+
+<H1>All My posts</H1>
+
+{% for article in articles %}
+
+ {{ article.title}}
+ <h6>|11|</h6>
+ {{ article.description}}
+ <BR>
+
+
+{% endfor %}
+</Body>
+</html>
